@@ -7,19 +7,21 @@ A simple Python script to automate fishing in WoW Classic. The script employs im
 Utilization of this software is entirely at the discretion of the user. It is crucial to note that any form of automation, inclusive of all botting variants, contravenes the Terms of Service and may precipitate punitive measures such as account suspension or termination. This bot was conceived and developed as a pedagogical endeavor, serving primarily as a learning resource. Consequently, it is unlikely to receive subsequent updates or enhancements post its initial release.
 
 ## Installation & Configuration
-1. Run the following commands to install dependencies:
-    - `pip install pyautogui`
-    - `pip install opencv-python`
-    - `pip install keyboard`
-    - `pip install soundcard`
-2. Enable the auto looting option in game settings.
-3. Disable all sound options from the game audio options.
-4. Download the "Better Fishing" addon and enable "Enhance sounds" option from the addon and set it to 100%.
-5. Bind your "Fishing" spell to a keyboard button.
-6. If you want to be able to fish up BoP items, download the "Leatrix Plus" addon and enable the "disable loot warnings" option from the menu.
+1. Install python from `python.org` or check if python is installed with `python --version`or `python3 --version`.
+2. Install packages and dependencies:
+    - `pip3 install pyautogui`
+    - `pip3 install opencv-python`
+    - `pip3 install keyboard`
+    - `pip3 install soundcard`
+3. Enable the auto looting option in game settings.
+4. Disable all sound options from the game audio options.
+5. Download the "Better Fishing" addon and enable "Enhance sounds" option from the addon and set it to 100%.
+6. Bind your "Fishing" spell to a keyboard button.
+7. If you want to be able to fish up BoP items, download the "Leatrix Plus" addon and enable the "disable loot warnings" option from the menu.
 
 ## Usage
-- Find a location with no other fishers as other bobbers will confuse the bot. 
+- Find a location with no other fishers as other bobbers will confuse the bot.
+- Navigate to the folder where the script is with `cd pathtofolder`.
 - Start the script with `python baitmaster.py` and enjoy.
 - Use your default audio output device. You cannot listen to other audio while botting. No further changes needed.
 - If you are having issues with bobber detection due to resolution or other differences, 
