@@ -24,7 +24,7 @@ Utilization of this software is entirely at the discretion of the user. It is cr
 
 ## Usage
 - Find a location with no other fishers as other bobbers will confuse the bot.
-- Navigate to the folder where the script is with `cd pathtofolder`.
+- Navigate to the folder where the script is with `cd /path/to/your/folder`.
 - Start the script with `python baitmaster.py` and enjoy.
 - Use your default audio output device. You cannot listen to other audio while botting. No further changes needed.
 - If you are having issues with bobber detection due to resolution or other differences, 
