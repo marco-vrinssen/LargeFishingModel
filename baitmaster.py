@@ -74,17 +74,7 @@ def reel_in():
  
 
 if __name__ == "__main__":
-    print(
-        '''
-      /`·.¸
-     /¸...¸`:·
- ¸.·´  ¸   `·.¸.·´)
-: © ):´;      ¸  {
- `·.¸ `·  ¸.·´\`·¸)
-     `\\´´\¸.·´
-Splash v1.0.                                         
-    '''
-    )
+    print(BaitMaster starting.)
 
     global input_device
     global castingkey
@@ -121,8 +111,3 @@ Splash v1.0.
             time.sleep(np.random.uniform(2.3,3.7))
             print("<< Could not find Bob. Trying again. >>")
             continue
-
-
-
-
-
