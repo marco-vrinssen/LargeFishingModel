@@ -7,7 +7,10 @@ A simple Python script to automate fishing in WoW Classic. The script employs im
 Utilization of this software is entirely at the discretion of the user. It is crucial to note that any form of automation, inclusive of all botting variants, contravenes the Terms of Service and may precipitate punitive measures such as account suspension or termination. This bot was conceived and developed as a pedagogical endeavor, serving primarily as a learning resource. Consequently, it is unlikely to receive subsequent updates or enhancements post its initial release.
 
 ## Installation & Configuration
-1. Install python from python(python.org) or check if python is installed with `python --version`or `python3 --version`.
+1. Install [Python](https://www.python.org)
+2. OR check if it is installed with
+    - `python --version`
+    - `python3 --version`
 2. Install packages and dependencies:
     - `pip3 install pyautogui`
     - `pip3 install opencv-python`
