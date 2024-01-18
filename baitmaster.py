@@ -13,7 +13,7 @@ def cast_line():
 def find_bob():
     global bob_found
     current_dir = os.getcwd()
-    bob_directory = f"{current_dir}\images"
+    bob_directory = f"{current_dir}/images"
 
     while True:
         print("<< Looking for Bob. Hold esc to quit. >>")
@@ -27,7 +27,7 @@ def find_bob():
         try:
             for file in os.listdir(bob_directory):
                 if file.endswith(".jpg"):
-                    file = (f"{bob_directory}\{file}")
+                    file = (f"{bob_directory}/{file}")
                     screen_loc = pyautogui.locateOnScreen(file, confidence=0.7, grayscale=True)
                     if screen_loc:
                         screen_loc_offset = ((screen_loc[0] + int(screen_loc[2] / 2) + np.random.uniform(-3,3)), (screen_loc[1] + int(screen_loc[3] / 2)) + np.random.uniform(-3,3))
@@ -74,7 +74,7 @@ def reel_in():
  
 
 if __name__ == "__main__":
-    print(BaitMaster starting.)
+    print("Welcome to BaitMaster 1.0. Enjoy fishing.")
 
     global input_device
     global castingkey
