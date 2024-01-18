@@ -8,17 +8,16 @@ Utilization of this software is entirely at the discretion of the user. It is cr
 
 ## Installation & Configuration
 1. Install [Python](https://www.python.org)
-2. OR check if it is installed with
-    - `python --version`
-    - `python3 --version`
-2. Install packages and dependencies:
-    - `pip3 install pyautogui`
-    - `pip3 install opencv-python`
-    - `pip3 install keyboard`
-    - `pip3 install soundcard`
-3. Enable the auto looting option in game settings.
-4. Disable all sound options from the game audio options.
-5. Download the "Better Fishing" addon and enable "Enhance sounds" option from the addon and set it to 100%.
+2. Check your installation:
+    - `python --version` or `python3 --version`
+3. Install packages and dependencies for python:
+    - `pip install pyautogui` or `pip3 install pyautogui`
+    - `pip install opencv-python` or `pip3 install opencv-python`
+    - `pip install keyboard` or `pip3 install keyboard`
+    - `pip install soundcard` or `pip3 install soundcard` 
+3. Enable the auto loot option in the game settings.
+4. Disable all sound options from the game audio settings.
+5. Download the "Better Fishing" addon and enable "Enhance sounds" for 100%.
 6. Bind your "Fishing" spell to a keyboard button.
 7. If you want to be able to fish up BoP items, download the "Leatrix Plus" addon and enable the "disable loot warnings" option from the menu.
 
