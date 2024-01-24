@@ -1,6 +1,6 @@
 # BaitMaster 1.0
 
-## Simple and efficient fishing bot for World of Wacraft Classic 1.15.0
+## Fishing Bot for World of Warcraft Classic utilizing a simple and efficient Python script.
 
 ## Overview
 A simple Python script to automate fishing in WoW Classic. The script employs image recognition algorithms to accurately identify the position of your fishing bobber within the World of Warcraft Classic environment. Upon detection of a sound exceeding a predefined decibel threshold - indicative of a fish bite - the system initiates the reeling process, thereby automating the fishing activity within the game.
