@@ -1,7 +1,5 @@
 # Bait Master 1.0
 
-## As I no longer play World of Warcraft, I'm unable to maintain or update the script.
-
 ## Fishing Bot for World of Warcraft Classic utilizing a simple and efficient Python script.
 
 ## Overview
