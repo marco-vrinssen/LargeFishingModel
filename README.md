@@ -1,6 +1,6 @@
-# Bait Master 1.0
+# Large Fishing Model 1.0
 
-## Fishing Bot for World of Warcraft Classic utilizing a simple and efficient Python script.
+## A Fishing Bot for World of Warcraft Classic.
 
 ## Overview
 A simple Python script to automate fishing in WoW Classic. The script employs image recognition algorithms to accurately identify the position of your fishing bobber within the World of Warcraft Classic environment. Upon detection of a sound exceeding a predefined decibel threshold - indicative of a fish bite - the system initiates the reeling process, thereby automating the fishing activity within the game.
@@ -29,7 +29,7 @@ Utilization of this software is entirely at the discretion of the user. It is cr
 ## Script Usage
 1. Open the Terminal App.
 2. Navigate to the folder where the script is with the command `cd /path/to/your/folder`.
-3. Start the script with `python baitmaster.py`.
+3. Start the script with `python largefishingmodel.py`.
 4. Use your default audio output device. You cannot listen to other audio while botting.
 
 ## Troubleshooting
